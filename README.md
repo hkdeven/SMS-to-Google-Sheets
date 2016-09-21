@@ -3,7 +3,7 @@ Pushing SMS messages to a Google Spreadsheet
 
 Use Twilio and Google Spreadsheets to build your own applications to do SMS polling / SMS voting, keyword marketing data collection, expense tracking, time tracking, and more.
 
-No programming experience required.
+No programming required - sorry. :anguished:
 
 Instructions:
 -------------
@@ -17,7 +17,7 @@ Get Started
 
 	![Create > Form](http://i.imgur.com/YgMYILQ.png)
 
-2. Name the form "SMS 2 Sheets" (or any name of your choosing) and select a nice design.
+2. Name the form and select the desired design.
 
 3. Add a new Text question.  Set the Question Title to "SmsSid"
 
@@ -35,17 +35,15 @@ Get Started
 
 	![Click Send Form](http://i.imgur.com/wYmlbgJ.png)
 
-7. A dialog window will open. Copy the "Link to Share" URL from that window:
+7. Convert to old Google Forms, go to File => Add Collaborators, edit collaborator link by replacing "/edit?usp=sharing" with "/viewform" and Copy it.
 
 	![Copy the Form URL](http://i.imgur.com/VHogL7T.png)
 
-8. Open [SMS 2 Sheets](http://SMS 2 Sheets.azurewebsites.net) in a new window.
+8. Open [TwilioSheet](http://twiliosheet.azurewebsites.net/) in a new window and paste that URL from step 7 into the box on TwilioSheet, then click the "Submit" button.
 
-9. Paste that URL you copied in step 7 into the box on SMS 2 Sheets, then click the "Submit" button.
+9. You should get a response from the site saying "It worked!"
 
-10. You should get a response from the site saying "It worked!"
-
-11. <a name="copy"></a>Copy that URL:
+10. <a name="copy"></a>Copy that URL:
 
     ![](http://i.imgur.com/9CPWdQe.png)
 
@@ -65,9 +63,9 @@ Get Started
 
 **In your Google Spreadsheet:**
 
-1. Any text message you send to your Twilio number should show up in the Google Spreadsheet you set up after a delay of about 5-10 seconds.
+1. Any text message sent to the Twilio number should propagate in the Google Spreadsheet after a 5-10 second delay.
 
-2. Start writing formulas to process the incoming text messages.
+2. Now you can start writing formulas to process the incoming text messages into whatever format your heart desires.
 
 ##Enjoy
 Made with :heart: and open source software. :octocat:
